@@ -1,0 +1,107 @@
+.container {
+    position: relative;
+}
+
+.loginform {
+    background-color: #435c70;
+    padding: 40px;
+    max-width: 470px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.loginform h2 {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.loginform div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.loginform h3 {
+    margin: 10px 0;
+}
+
+.loginform input, .loginform button {
+    width: 100%;
+}
+
+.loginform input {
+    padding: 19px 18px;
+    border-radius: 0;
+    height: 50px;
+    background-color: #54657d;
+    color: #fff;
+    border: 0;
+    border-bottom: 4px solid transparent;
+}
+
+.loginform button {
+    border: unset;
+    outline: unset;
+    padding: 13px 28px;
+    transition: all 0.2s ease;
+    font-size: 90%;
+    font-weight: 600;
+    background-color: #f5a623;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+}
+
+.loginform button:hover {
+    color: #f5a623;
+    background-color: transparent;
+    border: 2px solid #f5a623;
+}
+
+.loginform button {
+    margin-top: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* .login-val, .pass-val {
+    display: none;
+    font-size: .9em;
+    text-align: left;
+    color: #E15D44;
+} */
+
+@media screen and (max-width: 414px) {
+
+    .loginform {
+        padding: 20px;
+    }
+
+    .loginfrom input {
+        padding: 10px;
+        height: 40px;
+    }
+
+    /* .login-val, .pass-val {
+        padding: 0;
+        list-style-position: inside;
+    } */
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .loginform h2 {
+        font-size: 1em;
+    }
+
+}
+
+
+.Passregex{
+    /* display: none; */
+    color: red;
+}

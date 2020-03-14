@@ -1,0 +1,61 @@
+.main {
+    height: 100px;
+    background-color: #567086;
+    display: flex;
+    align-items: center;
+}
+.tag {
+    padding-left: 210px;
+}
+.tag h1 {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+}
+.menuWrapper {
+    display: flex;
+    margin-left: 270px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22.5px;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.menu:hover {
+    color: orange;
+}
+.menu h5 {
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.loginLogoutWrapper {
+    padding: 20px;
+    margin-left: 110px;
+}
+.logout {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.logoutLink {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.login {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

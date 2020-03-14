@@ -1,0 +1,13 @@
+.latesthits{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 50%;
+    width: 100%;
+}
+
+.latesthits>div{
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0#455c71;
+    max-height: 450px;
+    background-color:#435c70;
+}

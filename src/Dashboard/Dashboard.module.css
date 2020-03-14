@@ -1,0 +1,165 @@
+.greeting {
+    display: flex;
+    align-items: center;
+    padding: 25px 7%;
+    color: white;
+    font-size: 16px;
+}
+.greeting h5 {
+    font-weight: 400;
+    margin: 0;
+    padding-top: 3px;
+}
+.greeting h3 {
+    font-weight: 700;
+}
+.latesthits{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 50%;
+    width: 100%;
+}
+
+.latesthits>div{
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0#455c71;
+    max-height: 450px;
+    background-color:#435c70;
+}
+
+.dash{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+    margin: auto;
+    /* padding:20px; */
+}
+.dash>div{
+    position: relative;
+    margin-bottom: 20px;
+    min-height: 350px;
+}
+.latesthits, .performance, .storage {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 50%;
+    width: 90%;
+}
+
+.latesthits>div, .performance>div, .storage>div, .notification>div {
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0#455c71;
+    max-height: 450px;
+    background-color:#435c70;
+}
+
+/* .performance{
+    max-width: 50%;
+    width: 100%;
+} */
+.notification>div {
+    height: 412px;
+    /* overflow: hidden; */
+}
+
+.image{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.det{
+    padding: 0 10px;
+}
+.det>p{
+    margin-bottom: .5rem;
+    margin-top: 5px;
+}
+.sec{
+    padding: 10px;
+    background-color: #4e657a;
+    color: #fff;
+    font-size: 80%;
+    display: flex;
+    margin-bottom: 10px;
+}
+.notification{
+    /* width:33%; */
+    padding-bottom: 30px;
+    max-width: 46%;
+    width: 90%;
+    background-color:#435c70;
+    margin-right: 2%;
+    /* margin-top: 40px; */
+}
+.notify {
+    overflow-y: scroll;
+    height: 90%;
+    /* width:90%; */
+}
+
+
+
+
+
+
+
+.table {
+    background-color: #50697f;
+    color: #fff;
+    font-size: 85%;
+    margin-bottom: 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 10px;
+}
+
+thead {
+    background-color: #486177;
+    color: red;
+}
+
+.order .table thead th {
+    border-bottom: 0;
+    vertical-align: bottom;
+}
+
+.order .table th, .order .table td {
+    border-top: 1px solid #415a70;
+    padding: 15px 0;
+    text-align: center;
+}
+.order h2{
+    margin-left: 25px;
+}
+
+
+.order {
+    width: 96%;
+    max-width: 100%;
+   margin: auto;
+   overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #435c70;
+
+}
+
+.order>div {
+    padding: 30px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    background-color: #435c70;
+    height: 100%;
+}
+
+.order table td, .order table th {
+    min-width: 120px;
+}
+
+.ordertable {
+    max-height: 315px;
+    
+    width: 100%;
+}
+

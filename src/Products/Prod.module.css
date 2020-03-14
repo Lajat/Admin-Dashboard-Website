@@ -1,0 +1,131 @@
+.product{
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: red; */
+}
+
+.product {
+    width: 70%;
+}
+
+.productwrapper{
+    min-height: 350px;
+    padding: 40px;
+    box-shadow: 1px 1px 5px 0 #455c71;
+    background-color: #435c70;
+}
+.producttable{
+    max-height: 435px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    width: 100%;
+}
+.table{
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.datatable {
+    text-align: center;
+    
+    /* margin-bottom: 2px; */
+}
+
+.datatable tbody tr {
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border:8px solid #435c70;
+    /* text-decoration: none;
+    color: white; */
+}
+
+.datatable>tbody>tr:hover{
+    background-color: rgba(0,0,0,.075);
+}
+
+/* .datatable>tr>td>table {
+    width: 100%;
+} */
+.product .table th, .product .table td {
+    padding: 18px 5px;
+    height: 40px;
+    /* background-color: tan; */
+}
+.productwrapper table th, .productwrapper table td {
+    width: calc(100%/6);
+}
+.input {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.input:checked {
+    background-image:url("https://banner2.cleanpng.com/20180415/hue/kisspng-check-mark-computer-icons-clip-art-green-tick-5ad3572d4dbe90.8552842115237998533185.jpg");
+    background-size: cover;
+    
+
+}
+
+
+
+.mainRow {
+    /* padding: 0 !important; */
+    /* border: 1px solid #415a70; */
+    width: 100%;
+    margin-bottom: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.btn {
+    border-radius: 0;
+    padding: 15px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+    /* width:50%; */
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
